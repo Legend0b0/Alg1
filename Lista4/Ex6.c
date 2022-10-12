@@ -5,7 +5,7 @@ main()
 {
 int n, soma = 0;
 
-printf("Escreva um numero inteiro\n");
+//printf("Escreva um numero inteiro\n");
 scanf("%d", &n);
 
 for(int i = 1; i <= n; i++)
@@ -16,7 +16,8 @@ for(int i = 1; i <= n; i++)
 		}
 	}
 
-printf("A soma dos numeros diviziveis por 3 ate 'n' eh: %d\n", soma);
+//printf("A soma dos numeros diviziveis por 3 ate 'n' eh: ");
+printf("%d\n", soma);
 
 return 0;
 }
