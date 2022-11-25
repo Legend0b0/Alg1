@@ -8,9 +8,6 @@ main()
   printf("Digite o tamanho do vetor\n");
   scanf("%d", &n);
 
-  printf("Digite o numero 'k' a ser buscado\n");
-  scanf("%d", &k);
-
   int v[n];
 
   printf("Preencha o vetor\n");
@@ -18,6 +15,9 @@ main()
     {
     scanf("%d", &v[i]);
     }
+
+  printf("Digite o numero 'k' a ser buscado\n");
+  scanf("%d", &k);
 
   for(int i = 0; i < n; i++)
     {
