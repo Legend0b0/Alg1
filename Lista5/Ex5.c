@@ -8,13 +8,13 @@ main()
   int aposta[Size];
   int cont = 0;
 
-  printf("Digite os resultados do sorteio\n");
+//  printf("Digite os resultados do sorteio\n");
   for(int i = 0; i < Size; i++)
     {
     scanf("%d", &resultado[i]);
     }
 
-  printf("Digite os numeros da aposta\n");
+//  printf("Digite os numeros da aposta\n");
   for(int i = 0; i < Size; i++)
     {
     scanf("%d", &aposta[i]);

@@ -5,15 +5,15 @@ main()
 	{
 	int n, k;
 
-	puts("Digite o tamanho do vetor");
+//	puts("Digite o tamanho do vetor");
 	scanf("%d", &n);
 
-	puts("Digite o indice 'k'");
+//	puts("Digite o indice 'k'");
 	scanf("%d", &k);
 
 	int v[n];
 
-	puts("Preencha os 'n' espaços do vetor");
+//	puts("Preencha os 'n' espaços do vetor");
 	
 	for(int i = 0; i < n; i++)
 		{

@@ -5,18 +5,18 @@ main()
   {
   int n, k, p = -1;
 
-  printf("Digite o tamanho do vetor\n");
+//  printf("Digite o tamanho do vetor\n");
   scanf("%d", &n);
 
   int v[n];
 
-  printf("Preencha o vetor\n");
+//  printf("Preencha o vetor\n");
   for(int i = 0; i < n; i++)
     {
     scanf("%d", &v[i]);
     }
 
-  printf("Digite o numero 'k' a ser buscado\n");
+//  printf("Digite o numero 'k' a ser buscado\n");
   scanf("%d", &k);
 
   for(int i = 0; i < n; i++)

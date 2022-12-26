@@ -5,18 +5,18 @@ main()
 	{
 	int n, countv1 = 0, countv2 = 0, countv3 = 0, aux;
 
-	puts("Digite o tamanho dos vetores");
+//	puts("Digite o tamanho dos vetores");
 	scanf("%d", &n);
 	
 	int v1[n], v2[n];
 
-	puts("Preencha o vetor 1");
+//	puts("Preencha o vetor 1");
 	for(int i = 0; i < n; i++)
 		{
 		scanf("%d", &v1[i]);
 		}
 
-	puts("Preencha o vetor 2");
+//	puts("Preencha o vetor 2");
 	for(int i = 0; i < n; i++)
 		{
 		scanf("%d", &v2[i]);

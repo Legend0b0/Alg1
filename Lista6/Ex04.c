@@ -5,12 +5,12 @@ main()
 	{
 	int n, count = 0;
 	
-	puts("Digite o tamanho do vetor");
+//	puts("Digite o tamanho do vetor");
 	scanf("%d", &n);
 
 	int v[n];
 
-	puts("Preencha os 'n' espaços do vetor");
+//	puts("Preencha os 'n' espaços do vetor");
 	
 	for(int i = 0; i < n; i++)
 		{
@@ -35,8 +35,6 @@ main()
 				}
 			}
 		}
-
-	printf("%d\n", count);
 
 	for(int i = 0; i < (n-count); i++)
 		{

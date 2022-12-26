@@ -5,12 +5,12 @@ main()
 	{
 	int n, aux;
 	
-	puts("Digite um numero");
+//	puts("Digite um numero");
 	scanf("%d", &n);
 	
 	int v[n];
 
-	puts("Preencha os 'n' espaços do vetor");
+//	puts("Preencha os 'n' espaços do vetor");
 	for(int i = 0; i < n; i++)
 		{
 		scanf("%d", &v[i]);

@@ -6,7 +6,7 @@ main()
   int m;
 
 
-  printf("Digite quantas sequencias quer\n");
+//  printf("Digite quantas sequencias quer\n");
   scanf("%d", &m);
 
   int tamanho;
@@ -15,14 +15,14 @@ main()
   int pmenor[m];
   int pmaior[m];
 
-  printf("Digite o tamanho para os vetores\n");
+//  printf("Digite o tamanho para os vetores\n");
 
   scanf("%d", &tamanho);
 
   for(int i = 0; i < m; i++)
     {
     int v[tamanho];
-    printf("Digite %d valores\n", tamanho);
+//    printf("Digite %d valores\n", tamanho);
     for(int j = 0; j < tamanho; j++)
       {
       scanf("%d", &v[j]);

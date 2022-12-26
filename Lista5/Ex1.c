@@ -4,11 +4,11 @@ int
 main()
   {
   int n, x;
-  printf("Escreva o tamanho do vetor\n");
+//  printf("Escreva o tamanho do vetor\n");
   scanf("%d", &n);
   int v[n];
   
-  printf("Preencha os valores do vetor\n");
+//  printf("Preencha os valores do vetor\n");
   for(int i = 0; i < n; i++)
     {
     scanf("%d", &v[i]);

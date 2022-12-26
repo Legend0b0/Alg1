@@ -6,12 +6,12 @@ main()
   int n;
   float mlr, media = 0;
 
-  printf("Digite a quantidade de voltas\n");
+//  printf("Digite a quantidade de voltas\n");
   scanf("%d", &n);
 
   float v[n];
   
-  printf("Digite o tempo de cada volta em minutos\n");
+//  printf("Digite o tempo de cada volta em minutos\n");
   for(int i = 0; i < n; i++)
     {
     scanf("%f", &v[i]);
@@ -28,9 +28,11 @@ main()
 
   media /= n;
 
-  printf("Melhor tempo: %0.2f min\n", mlr);
+//  printf("Melhor tempo:");
+	printf("%0.2f\n", mlr);
 
-  printf("Tempo medio das voltas %0.2f min\n", media); 
+//  printf("Tempo medio das voltas");
+	printf("%0.2f\n", media); 
 
   return 0;
   }

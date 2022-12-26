@@ -5,19 +5,19 @@ main()
 	{
 	int n, aux, count = 0;
 	
-	puts("Digite o tamanho do vetor");
+//	puts("Digite o tamanho do vetor");
 	scanf("%d", &n);
 
 	int v[n];
 
-	puts("Preencha o vetor");
+//	puts("Preencha o vetor");
 
 	for(int i = 0; i < n; i++)
 		{
 		scanf("%d", &v[i]);
 		}
 
-	for(int i = 0; i < (n-count); i++)
+	for(int i = 0; i < (n-count);)
 		{
 		if(v[i] < 0)
 			{
@@ -28,6 +28,10 @@ main()
 				v[j+1] = aux;
 				}
 			count++;
+			}
+		else
+			{
+			i++;
 			}		
 		}
 
